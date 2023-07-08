@@ -30,6 +30,9 @@ body {
 .home {
     color: #072ac8;
 }
+.project-service {
+    color: #6b708d;
+}
 button{
     color: #ffff;
     padding: 10px 20px;
@@ -99,7 +102,7 @@ h1 {
     font-size: larger;
     font-weight: 200;
     word-spacing: 1px;
-    letter-spacing: 1px;
+    letter-spacing: .5px;
     width: 450px;
     word-wrap: break-word;
 }
@@ -143,11 +146,10 @@ h2 {
     font-weight: 450px;
 }
 a:link {
-    text-decoration: none;
-
-   
+    text-decoration: none;  
 }
 .learn-more {
+    color: #072ac8;
     margin-left: 15px;
     /* margin-bottom: 25px;
 */
@@ -232,9 +234,6 @@ div.project-photo {
     top: 84%;
     right: 45%;
     margin: 0px;
-}
-.orbit {
-    opacity: 100%;
 }
 
 .emoji {
