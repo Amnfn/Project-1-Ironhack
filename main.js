@@ -6,13 +6,16 @@ fetch("https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects"
             const imgElement = document.createElement("img");
 
             imgElement.setAttribute("src", getImage);
-            imgElement.setAttribute("width", 500);
+            imgElement.setAttribute("width", 300);
             document.body.appendChild(imgElement)    
-            })    
+            })   
+        data.forEach((launchObj) => {
+            const getName = launchObj.name;
+            const nameElement = document.createElement()
+
+            getName.setAttribute("src", getName)
+            document.body.imgElement.appendChild(getName)
+            })
+
     })
-    .then((data) =>  {
-        data.forEach((userName) => { 
-            const markup = userName.name;
-            document.querySelector('ul').insertAdjacentHTML('beforeend', markup);   
-            })    
-    })
+    
