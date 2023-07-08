@@ -54,7 +54,7 @@ button{
     margin-bottom: 50px;   
 }
 .orbit-photo {
-    width: 300px;
+    width: 330px;
     height: 250px;
 }
 
@@ -151,8 +151,7 @@ a:link {
 .learn-more {
     color: #072ac8;
     margin-left: 15px;
-    /* margin-bottom: 25px;
-*/
+
 }
 a:hover {
     background-color: rgb(192, 215, 227);
@@ -173,14 +172,6 @@ a:hover {
     color: #292E47;
     margin-left: 15px;
 }
-/*
-div.project-photo {
-    width: 250px;
-    text-align: left;
-    background-color: #072ac8;
-    background-size: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-} */
 
 
 .project-photo p {
@@ -189,8 +180,8 @@ div.project-photo {
     margin-left: 15px;
 }
 .vectorify {
-    height: 240px;
-    width: 300px;
+    height: 250px;
+    width: 330px;
 }
 
 
@@ -419,39 +410,3 @@ address {
     padding: 15px;
     margin-top: 25px;
 }
-
-/*
-.footer-two {
-    position: relative;
-}
-
-address {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-
-}
-
-.ul-one {
-    position: absolute;
-    bottom: 60px;
-    left: 10px;
-}
-/*
-.float {
-    float: left;
-    display: flex;
-    height: 175px;
-}
-
-nav {
-    width: 100%;
-}
-ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-li {
-    display: inline;
-} */
