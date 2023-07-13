@@ -15,6 +15,7 @@ body {
 
 }
 .menu {
+    font-size: 19px;
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -47,19 +48,17 @@ button{
 }
 .simply-photo {
     background-position: center;
-    filter: drop-shadow(5px 5px 10px #af69ee);
+    filter: drop-shadow(8px 6px 10px #af69ee);
     height: 650px;
     width: 100%;
     margin-top: 40px;
     margin-bottom: 50px;   
 }
-.orbit-photo {
-    width: 330px;
-    height: 250px;
-}
-
 .paragraph {
-    line-height: 5px;
+    font-size: large;
+    line-height: 25px;
+    word-spacing: 3px;
+   
 }
 .title {
     display: flex;
@@ -77,6 +76,8 @@ button{
 #other-project {
     margin-top: 100px;
 }
+
+/* Page 1 first part */
 #hero {
     display: flex;
     padding-top: 80px;
@@ -119,7 +120,6 @@ h1 {
     height: 550px;
     weight: 750px;   
     position: relative;
-
 }
 .card-one {
     width: 220px;
@@ -157,23 +157,20 @@ a:hover {
     background-color: rgb(192, 215, 227);
     cursor: zoom-in;
 }
+/* Page 1 Project */ 
 .project {
     display: flex;
     justify-content: space-between;
     padding: 0px;    
 }
-
 .project-photo {
     padding-bottom: 30px; 
     background-color: #fff;
 }
-
 .project h4 {
     color: #292E47;
     margin-left: 15px;
 }
-
-
 .project-photo p {
     text-align: left;
     font-weight: 100;
@@ -183,14 +180,14 @@ a:hover {
     height: 250px;
     width: 330px;
 }
-
-
+/* Page 1 Testimonial part */
 #testimonials {
     background-image: url(/images/testimonial/orbit.png);
     background-color: #292E47;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;   
+    background-position: center;  
+    height: 300px; 
     padding: 90px;
     text-align: center;
     margin-top: 100px;
@@ -203,8 +200,10 @@ a:hover {
     text-align: center;
     margin-bottom: 50px;
 }
-
-
+.orbit-photo {
+    width: 330px;
+    height: 250px;
+}
 .customer-section {
     color: #ffc600;
     font-size: 20px;
@@ -226,7 +225,6 @@ a:hover {
     right: 45%;
     margin: 0px;
 }
-
 .emoji {
     width: 100px;
     position: absolute;
@@ -259,10 +257,10 @@ a:hover {
     left: 45%;
     border-radius: 50%;
 }
+/* Page 1 Our Services */
 #our-services {
     margin-top: 100px;
 }
-
 .services {    
     display: flex;
     justify-content: center;
@@ -310,7 +308,6 @@ form {
 ::placeholder {
     color: #292E47;
 }
-
 input {
     border: none;
     margin-left: 10px;
@@ -324,15 +321,13 @@ input {
     padding-bottom: 100px;
     margin: 10px 50px;
 }
-
 .ul-bottom {
     display: flex;
     position: absolute;
     right: 10%;
     justify-content: space-around;
     line-height: 4em;
-    margin-top: 0;
-    
+    margin-top: 0;  
 }
 footer ul {
     list-style-type: none;
@@ -359,7 +354,7 @@ address {
 #fname {
     background-color: #e0e0ea;
     width: 100%;
-    padding: 12px 20px;
+    padding: 18px 20px;
     margin: 20px 0;
     box-sizing: border-box;
 }
@@ -367,27 +362,34 @@ address {
     margin-top: 20px;
     display: flex;
 }
+.email {
+    position: relative;
+}
 
 #email-two {
     background-color: #e0e0ea;
     position: absolute;
-    left: auto;
-    width: 35%;
-    padding: 12px 20px;
-    margin: 20px 0;
+    left: 8%;
+    width: 37%;
+    padding: 18px 20px;
+    margin-top: 20px;
+    
+
+
+  /*   margin: 20px 0px; */
 }
 #phone  {
     background-color: #e0e0ea;
     position: absolute;
-    right: 10%;
-    bottom: 55%;
-    width: 35%;
-    padding: 12px 20px;
-    margin: 20px 0
+    right: 8%;
+    width: 39%;
+    padding: 18px 20px;
+    margin-top: 20px;
+    margin-right: 0px;
 }
 .phone {
     position: absolute;
-    right: 44.5%;
+    right: 46.5%;
 }
 .message-text {
     position: absolute;
@@ -404,9 +406,10 @@ address {
     padding-top: 15px;
     padding-left: 15px;
 }
-.submit {
+.submitBtn {
     font-size: 15px;  
     width: 100%;
     padding: 15px;
     margin-top: 25px;
+    cursor: grabbing;
 }

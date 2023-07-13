@@ -22,22 +22,27 @@
     <section>
         <h1>Contact Us</h1>
         <form class="page-three">
-            <label for="fname">Full Name*</label> 
-            <input type="text" id="fname" name="fname" placeholder="Enter your full name">
+            <label name="myForm" for="fname">Full Name*</label> 
+            <input type="text" id="fname" name="fname" class="inputName" placeholder="Enter your full name">
             <div class="label-input">
-                <label for="email">Email</label> 
-                <input type="email" name="" id="email-two" placeholder="Enter your email address">
-
-                <label for="phone" class="phone">Phone</label>
-                <input type="number" id="phone" name="phone" placeholder="Enter your phone number">
+                <div>
+                    <label for="email" class="email">Email</label> 
+                    <input type="email" name="" id="email-two" placeholder="Enter your email address">
+                    
+                </div>
+                <div>
+                    <label for="phone" class="phone">Phone</label>
+                    <input type="number" id="phone" name="phone" placeholder="Enter your phone number">
+                </div>
             </div>
+                
 
 
             <label for="text" class="message-text">Message</label> <br> 
             <textarea name="message" id="message" placeholder="Write your message here..." cols="100" rows="30"></textarea>
 
             <br>
-            <button class="submit">Submit</button>
+            <button class="submitBtn">Submit</button>
         </form>        
     </section>
 
@@ -63,6 +68,6 @@
             </ul>
        </div>       
     </footer>
-    
+    <script src="/main.js"></script>
 </body>
 </html>
